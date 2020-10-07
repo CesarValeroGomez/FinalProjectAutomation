@@ -1,0 +1,16 @@
+entities\ResponseLists.class
+browserFactory\ChromeDriverManager.class
+pageObjects\ProjectBoardPage.class
+helpers\ReadPropertiesRequest.class
+pageObjects\HomePage.class
+entities\Card.class
+requestsManager\RequestOperations.class
+browserFactory\DriverManager.class
+pageObjects\LoginPage.class
+browserFactory\IEdriverManager.class
+builders\CardBuilder.class
+pageObjects\BasePage.class
+browserFactory\DriverManagerFactory.class
+helpers\ReadPropertiesFile.class
+browserFactory\FirefoxDriverManager.class
+requestsManager\EndpointManager.class

@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteTestsFrontEnd">
+              <span class="suite-name border-failed">SuiteTestsFrontEnd</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteTestsFrontEnd">
+                    <span>C:\Users\cvalero\Projects\FinalProjectAutamation\testngUI.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteTestsFrontEnd">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteTestsFrontEnd">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteTestsFrontEnd">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteTestsFrontEnd">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteTestsFrontEnd">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteTestsFrontEnd">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 4 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteTestsFrontEnd" class="hide-methods failed suite-SuiteTestsFrontEnd"> (hide)</a> <!-- hide-methods failed suite-SuiteTestsFrontEnd -->
+                      <a href="#" panel-name="suite-SuiteTestsFrontEnd" class="show-methods failed suite-SuiteTestsFrontEnd"> (show)</a> <!-- show-methods failed suite-SuiteTestsFrontEnd -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteTestsFrontEnd">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsFrontEnd" title="uiTests.ProjectBoardTest" hash-for-method="AddCommentCard">AddCommentCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsFrontEnd" title="uiTests.ProjectBoardTest" hash-for-method="MoveCardToList">MoveCardToList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsFrontEnd" title="uiTests.ProjectBoardTest" hash-for-method="UpdateDescription">UpdateDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsFrontEnd" title="uiTests.HomePageTests" hash-for-method="validateScreenShotError">validateScreenShotError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteTestsFrontEnd -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteTestsFrontEnd" class="hide-methods passed suite-SuiteTestsFrontEnd"> (hide)</a> <!-- hide-methods passed suite-SuiteTestsFrontEnd -->
+                      <a href="#" panel-name="suite-SuiteTestsFrontEnd" class="show-methods passed suite-SuiteTestsFrontEnd"> (show)</a> <!-- show-methods passed suite-SuiteTestsFrontEnd -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteTestsFrontEnd">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsFrontEnd" title="uiTests.ProjectBoardTest" hash-for-method="CreateNewCard">CreateNewCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsFrontEnd" title="uiTests.HomePageTests" hash-for-method="validateHomePage">validateHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsFrontEnd" title="uiTests.HomePageTests" hash-for-method="validateLogin">validateLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsFrontEnd" title="uiTests.HomePageTests" hash-for-method="validatePersonalProject">validatePersonalProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteTestsFrontEnd -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteTestsBackEnd">
+              <span class="suite-name border-passed">SuiteTestsBackEnd</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteTestsBackEnd">
+                    <span>C:\Users\cvalero\Projects\FinalProjectAutamation\testngAPI.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteTestsBackEnd">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteTestsBackEnd">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteTestsBackEnd">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteTestsBackEnd">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteTestsBackEnd">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteTestsBackEnd">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteTestsBackEnd" class="hide-methods passed suite-SuiteTestsBackEnd"> (hide)</a> <!-- hide-methods passed suite-SuiteTestsBackEnd -->
+                      <a href="#" panel-name="suite-SuiteTestsBackEnd" class="show-methods passed suite-SuiteTestsBackEnd"> (show)</a> <!-- show-methods passed suite-SuiteTestsBackEnd -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteTestsBackEnd">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsBackEnd" title="apiTests.RestFullCard" hash-for-method="ValidateToCloseCard">ValidateToCloseCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsBackEnd" title="apiTests.RestFullCard" hash-for-method="createNewCard">createNewCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsBackEnd" title="apiTests.RestFullCard" hash-for-method="validateAddNewComment">validateAddNewComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsBackEnd" title="apiTests.RestFullCard" hash-for-method="validateCard">validateCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsBackEnd" title="apiTests.RestFullCard" hash-for-method="validateDeleteCard">validateDeleteCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsBackEnd" title="apiTests.RestFullCard" hash-for-method="validateLists">validateLists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsBackEnd" title="apiTests.RestFullCard" hash-for-method="validateMoveCardToList">validateMoveCardToList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTestsBackEnd" title="apiTests.RestFullCard" hash-for-method="validateUpdateCard">validateUpdateCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteTestsBackEnd -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteTestsFrontEnd" class="panel SuiteTestsFrontEnd">
+          <div class="suite-SuiteTestsFrontEnd-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">uiTests.ProjectBoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCommentCard">
+                  </a> <!-- AddCommentCard -->
+                  <span class="method-name">AddCommentCard</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EN911042&apos;, ip: &apos;192.168.0.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60306}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7ff8f62632fa26a809dcadb487528631
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProjectBoardPage.AddCommment(ProjectBoardPage.java:75)
+	at uiTests.ProjectBoardTest.AddCommentCard(ProjectBoardTest.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Add a comment in the Card)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MoveCardToList">
+                  </a> <!-- MoveCardToList -->
+                  <span class="method-name">MoveCardToList</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EN911042&apos;, ip: &apos;192.168.0.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 27a36169c197002e8a958e7d4f2ed84b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProjectBoardPage.MoveCardTo(ProjectBoardPage.java:90)
+	at uiTests.ProjectBoardTest.MoveCardToList(ProjectBoardTest.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Move the Card to other List)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateDescription">
+                  </a> <!-- UpdateDescription -->
+                  <span class="method-name">UpdateDescription</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EN911042&apos;, ip: &apos;192.168.0.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7d86c9a34f48f82ca7fd428568fdc3e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProjectBoardPage.UpdateDescription(ProjectBoardPage.java:62)
+	at uiTests.ProjectBoardTest.UpdateDescription(ProjectBoardTest.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Update the Description in the Card)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteTestsFrontEnd-class-failed -->
+          <div class="suite-SuiteTestsFrontEnd-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">uiTests.HomePageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateScreenShotError">
+                  </a> <!-- validateScreenShotError -->
+                  <span class="method-name">validateScreenShotError</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Log Out] but found [Log In]
+	at uiTests.HomePageTests.validateScreenShotError(HomePageTests.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Take ScreenShot when there is an Error.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteTestsFrontEnd-class-failed -->
+          <div class="suite-SuiteTestsFrontEnd-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">uiTests.ProjectBoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewCard">
+                  </a> <!-- CreateNewCard -->
+                  <span class="method-name">CreateNewCard</span>
+                  <em>
+(Validate user can create a task card in the Board)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteTestsFrontEnd-class-passed -->
+          <div class="suite-SuiteTestsFrontEnd-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">uiTests.HomePageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePage">
+                  </a> <!-- validateHomePage -->
+                  <span class="method-name">validateHomePage</span>
+                  <em>
+(validate main components in the HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogin">
+                  </a> <!-- validateLogin -->
+                  <span class="method-name">validateLogin</span>
+                  <em>
+(User can Login in the Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePersonalProject">
+                  </a> <!-- validatePersonalProject -->
+                  <span class="method-name">validatePersonalProject</span>
+                  <em>
+(Validate user get into the Project)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteTestsFrontEnd-class-passed -->
+        </div> <!-- panel SuiteTestsFrontEnd -->
+        <div panel-name="suite-SuiteTestsBackEnd" class="panel SuiteTestsBackEnd">
+          <div class="suite-SuiteTestsBackEnd-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTests.RestFullCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateToCloseCard">
+                  </a> <!-- ValidateToCloseCard -->
+                  <span class="method-name">ValidateToCloseCard</span>
+                  <em>
+(Close a Card in any time)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewCard">
+                  </a> <!-- createNewCard -->
+                  <span class="method-name">createNewCard</span>
+                  <em>
+(Create a new card in the List selected;  Could be: Backlog, Design, To Do, Doing, Code Review, Testing or Done.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddNewComment">
+                  </a> <!-- validateAddNewComment -->
+                  <span class="method-name">validateAddNewComment</span>
+                  <em>
+(Adding a new Comment in a Card)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCard">
+                  </a> <!-- validateCard -->
+                  <span class="method-name">validateCard</span>
+                  <em>
+(Validate the Information of the Card using its ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeleteCard">
+                  </a> <!-- validateDeleteCard -->
+                  <span class="method-name">validateDeleteCard</span>
+                  <em>
+(Delete a Card)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLists">
+                  </a> <!-- validateLists -->
+                  <span class="method-name">validateLists</span>
+                  <em>
+(Validate the Lists in a Project Kanban are bigger than 5)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMoveCardToList">
+                  </a> <!-- validateMoveCardToList -->
+                  <span class="method-name">validateMoveCardToList</span>
+                  <em>
+(Move the Card task from one List to Other)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUpdateCard">
+                  </a> <!-- validateUpdateCard -->
+                  <span class="method-name">validateUpdateCard</span>
+                  <em>
+(Update the Card)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteTestsBackEnd-class-passed -->
+        </div> <!-- panel SuiteTestsBackEnd -->
+        <div panel-name="test-xml-SuiteTestsFrontEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\cvalero\Projects\FinalProjectAutamation\testngUI.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SuiteTestsFrontEnd&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;HomePageTest&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;uiTests.HomePageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePageTest --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;ProjectBoardTest&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;uiTests.ProjectBoardTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ProjectBoardTest --&gt;
+&lt;/suite&gt; &lt;!-- SuiteTestsFrontEnd --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-SuiteTestsBackEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\cvalero\Projects\FinalProjectAutamation\testngAPI.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SuiteTestsBackEnd&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;apiTests.RestFullCard&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- SuiteTestsBackEnd --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteTestsFrontEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteTestsFrontEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePageTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ProjectBoardTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteTestsBackEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteTestsBackEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteTestsFrontEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteTestsFrontEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteTestsBackEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteTestsBackEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteTestsFrontEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteTestsFrontEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteTestsFrontEnd');
+function tableData_SuiteTestsFrontEnd() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CreateNewCard')
+data.setCell(0, 2, 'uiTests.ProjectBoardTest')
+data.setCell(0, 3, 28941);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validatePersonalProject')
+data.setCell(1, 2, 'uiTests.HomePageTests')
+data.setCell(1, 3, 28002);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'UpdateDescription')
+data.setCell(2, 2, 'uiTests.ProjectBoardTest')
+data.setCell(2, 3, 23899);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateLogin')
+data.setCell(3, 2, 'uiTests.HomePageTests')
+data.setCell(3, 3, 23360);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateHomePage')
+data.setCell(4, 2, 'uiTests.HomePageTests')
+data.setCell(4, 3, 22423);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'MoveCardToList')
+data.setCell(5, 2, 'uiTests.ProjectBoardTest')
+data.setCell(5, 3, 21661);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'AddCommentCard')
+data.setCell(6, 2, 'uiTests.ProjectBoardTest')
+data.setCell(6, 3, 20967);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateScreenShotError')
+data.setCell(7, 2, 'uiTests.HomePageTests')
+data.setCell(7, 3, 186);
+window.suiteTableData['SuiteTestsFrontEnd']= { tableData: data, tableDiv: 'times-div-SuiteTestsFrontEnd'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-SuiteTestsFrontEnd">
+              </div> <!-- times-div-SuiteTestsFrontEnd -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteTestsBackEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteTestsBackEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteTestsBackEnd');
+function tableData_SuiteTestsBackEnd() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateDeleteCard')
+data.setCell(0, 2, 'apiTests.RestFullCard')
+data.setCell(0, 3, 8196);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateLists')
+data.setCell(1, 2, 'apiTests.RestFullCard')
+data.setCell(1, 3, 7016);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateAddNewComment')
+data.setCell(2, 2, 'apiTests.RestFullCard')
+data.setCell(2, 3, 7000);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createNewCard')
+data.setCell(3, 2, 'apiTests.RestFullCard')
+data.setCell(3, 3, 6911);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateCard')
+data.setCell(4, 2, 'apiTests.RestFullCard')
+data.setCell(4, 3, 6890);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateToCloseCard')
+data.setCell(5, 2, 'apiTests.RestFullCard')
+data.setCell(5, 3, 1458);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateUpdateCard')
+data.setCell(6, 2, 'apiTests.RestFullCard')
+data.setCell(6, 3, 738);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateMoveCardToList')
+data.setCell(7, 2, 'apiTests.RestFullCard')
+data.setCell(7, 3, 675);
+window.suiteTableData['SuiteTestsBackEnd']= { tableData: data, tableDiv: 'times-div-SuiteTestsBackEnd'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-SuiteTestsBackEnd">
+              </div> <!-- times-div-SuiteTestsBackEnd -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteTestsFrontEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteTestsFrontEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteTestsBackEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteTestsBackEnd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteTestsFrontEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteTestsBackEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteTestsFrontEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">uiTests.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLogin</span>
+                <span class="method-start">21854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass([TestResult name=validateLogin status=SUCCESS method=HomePageTests.validateLogin()[pri:1, instance:u...)</span>
+                <span class="method-start">45220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">47503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateHomePage</span>
+                <span class="method-start">66026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass([TestResult name=validateHomePage status=SUCCESS method=HomePageTests.validateHomePage()[pri:2, inst...)</span>
+                <span class="method-start">88453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">92205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePersonalProject</span>
+                <span class="method-start">109144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass([TestResult name=validatePersonalProject status=SUCCESS method=HomePageTests.validatePersonalProject...)</span>
+                <span class="method-start">137151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">140958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateScreenShotError</span>
+                <span class="method-start">158167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass([TestResult name=validateScreenShotError status=FAILURE method=HomePageTests.validateScreenShotError...)</span>
+                <span class="method-start">158378 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">uiTests.ProjectBoardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">165009 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">165010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateNewCard</span>
+                <span class="method-start">180956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass([TestResult name=CreateNewCard status=SUCCESS method=ProjectBoardTest.CreateNewCard()[pri:1, instanc...)</span>
+                <span class="method-start">209902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">215419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UpdateDescription</span>
+                <span class="method-start">231407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass([TestResult name=UpdateDescription status=FAILURE method=ProjectBoardTest.UpdateDescription()[pri:2,...)</span>
+                <span class="method-start">255311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">258289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddCommentCard</span>
+                <span class="method-start">274148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass([TestResult name=AddCommentCard status=FAILURE method=ProjectBoardTest.AddCommentCard()[pri:3, insta...)</span>
+                <span class="method-start">295120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">298225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MoveCardToList</span>
+                <span class="method-start">312259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass([TestResult name=MoveCardToList status=FAILURE method=ProjectBoardTest.MoveCardToList()[pri:4, insta...)</span>
+                <span class="method-start">333929 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteTestsBackEnd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTests.RestFullCard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateAddNewComment</span>
+                <span class="method-start">1137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createNewCard</span>
+                <span class="method-start">1137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLists</span>
+                <span class="method-start">1137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDeleteCard</span>
+                <span class="method-start">1137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCard</span>
+                <span class="method-start">1160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateMoveCardToList</span>
+                <span class="method-start">8435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUpdateCard</span>
+                <span class="method-start">8440 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateToCloseCard</span>
+                <span class="method-start">8535 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

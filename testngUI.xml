@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteTestsFrontEnd">
+  <test thread-count="1" name="HomePageTest" parallel="methods">
+    <classes>
+      <class name="uiTests.HomePageTests"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="ProjectBoardTest" parallel="methods">
+    <classes>
+      <class name="uiTests.ProjectBoardTest"/>
+    </classes>
+  </test>
+</suite>

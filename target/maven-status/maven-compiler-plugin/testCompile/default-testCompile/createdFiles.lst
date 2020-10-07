@@ -1,0 +1,5 @@
+uiTests\HomePageTests.class
+apiTests\BaseTest.class
+apiTests\RestFullCard.class
+uiTests\ProjectBoardTest.class
+uiTests\BaseTest.class

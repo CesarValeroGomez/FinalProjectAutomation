@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 350.986 s <<< FAILURE! - in TestSuite
+uiTests.HomePageTests.validateScreenShotError  Time elapsed: 0.076 s  <<< FAILURE!
+java.lang.AssertionError: expected [Log Out] but found [Log In]
+	at uiTests.HomePageTests.validateScreenShotError(HomePageTests.java:38)
+
+uiTests.ProjectBoardTest.UpdateDescription  Time elapsed: 23.676 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EN911042', ip: '192.168.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7d86c9a34f48f82ca7fd428568fdc3e0
+	at uiTests.ProjectBoardTest.UpdateDescription(ProjectBoardTest.java:30)
+
+uiTests.ProjectBoardTest.AddCommentCard  Time elapsed: 20.84 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EN911042', ip: '192.168.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60306}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7ff8f62632fa26a809dcadb487528631
+	at uiTests.ProjectBoardTest.AddCommentCard(ProjectBoardTest.java:42)
+
+uiTests.ProjectBoardTest.MoveCardToList  Time elapsed: 21.602 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EN911042', ip: '192.168.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 27a36169c197002e8a958e7d4f2ed84b
+	at uiTests.ProjectBoardTest.MoveCardToList(ProjectBoardTest.java:53)
+

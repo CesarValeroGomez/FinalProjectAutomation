@@ -1,0 +1,1 @@
+{"uuid":"3451354e-95e6-46ee-ade3-5e10a1dfe1bb","name":"apiTests.RestFullCard","children":["beffef38-9b7e-477a-a316-6e40eaa2c1f3"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1602106106317,"stop":1602106107357}],"afters":[],"links":[],"start":1602106106268,"stop":1602106112424}
