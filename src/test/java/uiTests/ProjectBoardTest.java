@@ -53,4 +53,15 @@ public class ProjectBoardTest extends BaseTest {
         Assert.assertTrue(projectBoardPage.MoveCardTo(cardName, "Doing"));
         logger.info("UI Test 8 - Passed - MoveCardToList: "+" Doing");
     }
+
+    @Test(priority = 5, description = "Validate The card was moved with the second way.")
+    public void ValidateCardWasMoved() {
+        String cardName = "Old develop task";
+        loginPage.setDoLogin(readProperties.getUser(), readProperties.getPassword());
+        homePage = new HomePage(driver);
+        homePage.personalProject("New Final Project");
+        projectBoardPage = new ProjectBoardPage(driver);
+        Assert.assertTrue(projectBoardPage.CardWasMoved(cardName, "Doing"));
+        logger.info("UI Test 9 - Passed - ValidateCardWasMoved: "+" Doing");
+    }
 }

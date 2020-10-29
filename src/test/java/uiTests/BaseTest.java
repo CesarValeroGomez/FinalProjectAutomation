@@ -59,7 +59,7 @@ public abstract class BaseTest {
         if(ITestResult.FAILURE==result.getStatus()) {
             String path = "C:\\Users\\cvalero\\Projects\\FinalProjectAutamation\\test-output\\screenShots\\";
             String screenShotName = "Error_"+result.getName();
-            logger.info("TestCase failed due to below reason: ");
+            logger.info("TestCase failed due to: "+screenShotName);
             File screenShotFile = ((TakesScreenshot)driver).getScreenshotAs( OutputType.FILE);
             try {
                 FileUtils.copyFile( screenShotFile, new File( path + screenShotName + ".png" ) );

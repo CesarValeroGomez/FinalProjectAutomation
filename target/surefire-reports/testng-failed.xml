@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SuiteTestsFrontEnd]">
-  <test thread-count="5" verbose="0" name="HomePageTest(failed)" parallel="methods">
+<suite name="Failed suite [SuiteTestsFrontEnd]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="methods" name="HomePageTest(failed)" verbose="0">
     <classes>
       <class name="uiTests.HomePageTests">
         <methods>
@@ -13,14 +13,13 @@
       </class> <!-- uiTests.HomePageTests -->
     </classes>
   </test> <!-- HomePageTest(failed) -->
-  <test thread-count="5" verbose="0" name="ProjectBoardTest(failed)" parallel="methods">
+  <test thread-count="5" parallel="methods" name="ProjectBoardTest(failed)" verbose="0">
     <classes>
       <class name="uiTests.ProjectBoardTest">
         <methods>
           <include name="beforeClass"/>
           <include name="UpdateDescription"/>
           <include name="loadData"/>
-          <include name="MoveCardToList"/>
           <include name="AddCommentCard"/>
           <include name="afterClass"/>
         </methods>

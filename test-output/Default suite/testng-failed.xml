@@ -3,16 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uiTests.HomePageTests">
+      <class name="uiTests.ProjectBoardTest">
         <methods>
-          <include name="validateHomePage"/>
-          <include name="validateLogin"/>
           <include name="beforeClass"/>
           <include name="loadData"/>
-          <include name="validatePersonalProject"/>
+          <include name="MoveCardToList"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- uiTests.HomePageTests -->
+      </class> <!-- uiTests.ProjectBoardTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

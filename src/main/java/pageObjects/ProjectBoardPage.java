@@ -40,6 +40,7 @@ public class ProjectBoardPage extends BasePage {
     @FindBy(css = ".icon-md")
     protected WebElement exitCard;
 
+    protected WebElement divDoing;
 
     public ProjectBoardPage(WebDriver driver) {
         super( driver );
@@ -98,6 +99,15 @@ public class ProjectBoardPage extends BasePage {
         waitForElementToBeLoaded(boardTitle);
         takeScreenShot("Card was successfully Moved to: "+listName);
         oldCardElementMoved = driver.findElement(By.xpath(listLocator+listContent+cardLocator));
+        return oldCardElementMoved.isDisplayed();
+    }
+
+    public Boolean CardWasMoved(String cardName, String listName) {
+        String listLocator = String.format("//h2[contains(text(),'%s')]",listName);
+        String listContent = "//ancestor::div[@class='list js-list-content']";
+        String cardLocator = String.format("//span[contains(.,'%s')]",cardName);
+        divDoing = driver.findElement(By.xpath(listLocator+listContent));
+        oldCardElementMoved = divDoing.findElement(By.xpath(cardLocator));
         return oldCardElementMoved.isDisplayed();
     }
 }
