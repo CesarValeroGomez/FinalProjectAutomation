@@ -1,16 +1,16 @@
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\helpers\ReadPropertiesFile.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\requestsManager\RequestOperations.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\browserFactory\IEdriverManager.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\browserFactory\DriverManagerFactory.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\browserFactory\DriverManager.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\requestsManager\EndpointManager.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\browserFactory\FirefoxDriverManager.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\entities\ResponseLists.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\builders\CardBuilder.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\browserFactory\ChromeDriverManager.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\pageObjects\BasePage.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\entities\Card.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\pageObjects\HomePage.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\helpers\ReadPropertiesRequest.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\pageObjects\LoginPage.java
-C:\Users\cvalero\Projects\FinalProjectAutamation\src\main\java\pageObjects\ProjectBoardPage.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\requestsManager\RequestOperations.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\browserFactory\DriverManagerFactory.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\pageObjects\LoginPage.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\builders\CardBuilder.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\pageObjects\BasePage.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\entities\ResponseLists.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\browserFactory\DriverManager.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\requestsManager\EndpointManager.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\browserFactory\FirefoxDriverManager.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\browserFactory\IEdriverManager.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\pageObjects\HomePage.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\entities\Card.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\browserFactory\ChromeDriverManager.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\helpers\ReadPropertiesFile.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\helpers\ReadPropertiesRequest.java
+C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\src\main\java\pageObjects\ProjectBoardPage.java

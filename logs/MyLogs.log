@@ -1,35 +1,3 @@
-[TRACE] 2020-10-08 19:13:22.185 [TestNG-test=Test-1] RestFullCard - API Test 1 - Passed - ValidateLists 
-[INFO ] 2020-10-08 19:13:22.194 [TestNG-test=Test-1] RestFullCard - The Number of lists in the Kanban project is: 7
-[INFO ] 2020-10-08 19:13:22.194 [TestNG-test=Test-1] RestFullCard - The lists in Kanban are: 
-[INFO ] 2020-10-08 19:13:22.195 [TestNG-test=Test-1] RestFullCard - Backlog
-[INFO ] 2020-10-08 19:13:22.195 [TestNG-test=Test-1] RestFullCard - Design
-[INFO ] 2020-10-08 19:13:22.195 [TestNG-test=Test-1] RestFullCard - To Do
-[INFO ] 2020-10-08 19:13:22.196 [TestNG-test=Test-1] RestFullCard - Doing
-[INFO ] 2020-10-08 19:13:22.196 [TestNG-test=Test-1] RestFullCard - Code Review
-[INFO ] 2020-10-08 19:13:22.196 [TestNG-test=Test-1] RestFullCard - Testing
-[INFO ] 2020-10-08 19:13:22.196 [TestNG-test=Test-1] RestFullCard - Done
-[INFO ] 2020-10-08 19:13:22.201 [TestNG-test=Test-2] RestFullCard - API Test 2 - Passed - ValidateCard 
-[INFO ] 2020-10-08 19:13:22.202 [TestNG-test=Test-2] RestFullCard - The Name of the Card validated is: prueba
-[INFO ] 2020-10-08 19:13:22.203 [TestNG-test=Test-5] RestFullCard - API Test 5 - Passed - ValidateAddNewComment 
-[INFO ] 2020-10-08 19:13:22.190 [TestNG-test=Test-3] RestFullCard - API Test 3 - Passed - CreateNewCard 
-[INFO ] 2020-10-08 19:13:22.204 [TestNG-test=Test-5] RestFullCard - New Comment added to the Card 5f7fab5a180176453cda7d35
-[INFO ] 2020-10-08 19:13:22.208 [TestNG-test=Test-3] RestFullCard - The Id of the New Card is: 5f7fab5ad90c937f12510db3
-[INFO ] 2020-10-08 19:13:22.741 [TestNG-test=Test-5] RestFullCard - API Test 6 - Passed - validateMoveCardToList 
-[INFO ] 2020-10-08 19:13:22.741 [TestNG-test=Test-5] RestFullCard - The Card was move to the List To Do 
-[INFO ] 2020-10-08 19:13:22.754 [TestNG-test=Test-3] RestFullCard - API Test 7 - Passed - validateUpdateCard 
-[INFO ] 2020-10-08 19:13:22.754 [TestNG-test=Test-3] RestFullCard - Description updated:  The Description has been modified from IntelliJ
-[INFO ] 2020-10-08 19:13:22.755 [TestNG-test=Test-3] RestFullCard - New Due Date updated:  2020-11-08T00:00:00.000Z
-[INFO ] 2020-10-08 19:13:22.980 [TestNG-test=Test-4] RestFullCard - API Test 4 - Passed - ValidateDeleteCard 
-[INFO ] 2020-10-08 19:13:22.981 [TestNG-test=Test-4] RestFullCard - The Card was Deleted 
-[INFO ] 2020-10-08 19:13:23.314 [TestNG-test=Test-1] RestFullCard - API Test 8 - Passed - ValidateToCloseCard 
-[INFO ] 2020-10-08 19:13:23.315 [TestNG-test=Test-1] RestFullCard - Is the Card closed?:  true
-[INFO ] 2020-10-08 19:14:01.774 [TestNG-test=HomePageTest-1] BaseTest - UI Test 1 - Passed - validateLogin 
-[INFO ] 2020-10-08 19:14:43.864 [TestNG-test=HomePageTest-1] BaseTest - UI Test 2 - Passed - validateHomePage - expected components were displayed 
-[INFO ] 2020-10-08 19:15:28.995 [TestNG-test=HomePageTest-1] BaseTest - UI Test 3 - Passed - validatePersonalProject New Final Project Exists
-[INFO ] 2020-10-08 19:15:51.057 [TestNG-test=HomePageTest-1] BaseTest - TestCase failed due to: Error_validateScreenShotError
-[INFO ] 2020-10-08 19:16:48.152 [TestNG-test=ProjectBoardTest-1] BaseTest - UI Test 5 - Passed - CreateNewCard 
-[INFO ] 2020-10-08 19:16:48.153 [TestNG-test=ProjectBoardTest-1] BaseTest - Card Created with name: New develop task
-[INFO ] 2020-10-08 19:17:32.623 [TestNG-test=ProjectBoardTest-1] BaseTest - TestCase failed due to: Error_UpdateDescription
-[INFO ] 2020-10-08 19:18:17.952 [TestNG-test=ProjectBoardTest-1] BaseTest - TestCase failed due to: Error_AddCommentCard
-[INFO ] 2020-10-08 19:19:10.036 [TestNG-test=ProjectBoardTest-1] BaseTest - UI Test 8 - Passed - MoveCardToList:  Doing
-[INFO ] 2020-10-08 19:19:57.950 [TestNG-test=ProjectBoardTest-1] BaseTest - UI Test 9 - Passed - MoveCardToList:  Doing
+[TRACE] 2020-10-08 19:13:22.185
+[INFO ] 2022-05-24 15:16:32.909 [main] RestFullCard - API Test 2 - Passed - ValidateCard 
+[INFO ] 2022-05-24 15:16:34.127 [main] RestFullCard - The Name of the Card validated is: prueba

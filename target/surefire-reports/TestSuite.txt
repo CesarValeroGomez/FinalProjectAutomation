@@ -1,32 +1,72 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 404.165 s <<< FAILURE! - in TestSuite
-uiTests.HomePageTests.validateScreenShotError  Time elapsed: 0.079 s  <<< FAILURE!
-java.lang.AssertionError: expected [Log Out] but found [Log In]
-	at uiTests.HomePageTests.validateScreenShotError(HomePageTests.java:38)
-
-uiTests.ProjectBoardTest.UpdateDescription  Time elapsed: 22.652 s  <<< FAILURE!
-org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=86.0.4240.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Tests run: 35, Failures: 2, Errors: 0, Skipped: 25, Time elapsed: 25.043 s <<< FAILURE! - in TestSuite
+uiTests.HomePageTests.loadData  Time elapsed: 9.863 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EN911042', ip: '192.168.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e5d87ce4d9fdd50464af13cded955616
-	at uiTests.ProjectBoardTest.UpdateDescription(ProjectBoardTest.java:30)
+System info: host: 'EN911415', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005DC013+3194899]
+	Ordinal0 [0x004C6021+2056225]
+	Ordinal0 [0x0035F608+587272]
+	Ordinal0 [0x002E1BF3+72691]
+	Ordinal0 [0x002DE229+57897]
+	Ordinal0 [0x002DC64A+50762]
+	Ordinal0 [0x00301EE9+204521]
+	Ordinal0 [0x00301D0D+204045]
+	Ordinal0 [0x002FFC1B+195611]
+	Ordinal0 [0x002E3B7F+80767]
+	Ordinal0 [0x002E4B4E+84814]
+	Ordinal0 [0x002E4AD9+84697]
+	Ordinal0 [0x004DCE64+2149988]
+	GetHandleVerifier [0x0074BE95+1400773]
+	GetHandleVerifier [0x0074BB61+1399953]
+	GetHandleVerifier [0x007531FA+1430314]
+	GetHandleVerifier [0x0074C69F+1402831]
+	Ordinal0 [0x004D3D61+2112865]
+	Ordinal0 [0x004DE5CB+2155979]
+	Ordinal0 [0x004DE6F5+2156277]
+	Ordinal0 [0x004EF26E+2224750]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]
 
-uiTests.ProjectBoardTest.AddCommentCard  Time elapsed: 27.498 s  <<< FAILURE!
-org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=86.0.4240.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+
+uiTests.ProjectBoardTest.loadData  Time elapsed: 8.599 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EN911042', ip: '192.168.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f1eb04c33bdea1d6400577eaa0dc196a
-	at uiTests.ProjectBoardTest.AddCommentCard(ProjectBoardTest.java:42)
+System info: host: 'EN911415', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005DC013+3194899]
+	Ordinal0 [0x004C6021+2056225]
+	Ordinal0 [0x0035F608+587272]
+	Ordinal0 [0x002E1BF3+72691]
+	Ordinal0 [0x002DE229+57897]
+	Ordinal0 [0x002DC64A+50762]
+	Ordinal0 [0x00301EE9+204521]
+	Ordinal0 [0x00301D0D+204045]
+	Ordinal0 [0x002FFC1B+195611]
+	Ordinal0 [0x002E3B7F+80767]
+	Ordinal0 [0x002E4B4E+84814]
+	Ordinal0 [0x002E4AD9+84697]
+	Ordinal0 [0x004DCE64+2149988]
+	GetHandleVerifier [0x0074BE95+1400773]
+	GetHandleVerifier [0x0074BB61+1399953]
+	GetHandleVerifier [0x007531FA+1430314]
+	GetHandleVerifier [0x0074C69F+1402831]
+	Ordinal0 [0x004D3D61+2112865]
+	Ordinal0 [0x004DE5CB+2155979]
+	Ordinal0 [0x004DE6F5+2156277]
+	Ordinal0 [0x004EF26E+2224750]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]
+
 

@@ -5,8 +5,11 @@
     <classes>
       <class name="uiTests.HomePageTests">
         <methods>
+          <include name="validateHomePage"/>
+          <include name="validateLogin"/>
           <include name="beforeClass"/>
           <include name="loadData"/>
+          <include name="validatePersonalProject"/>
           <include name="validateScreenShotError"/>
           <include name="afterClass"/>
         </methods>
@@ -18,8 +21,11 @@
       <class name="uiTests.ProjectBoardTest">
         <methods>
           <include name="beforeClass"/>
+          <include name="CreateNewCard"/>
           <include name="UpdateDescription"/>
           <include name="loadData"/>
+          <include name="MoveCardToList"/>
+          <include name="ValidateCardWasMoved"/>
           <include name="AddCommentCard"/>
           <include name="afterClass"/>
         </methods>

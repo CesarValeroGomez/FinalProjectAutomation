@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="404.165" tests="17" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.043" tests="35" errors="0" skipped="25" failures="2">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="./src/main/resources/browserDrivers/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\cvalero\Projects\FinalProjectAutamation\target\test-classes;C:\Users\cvalero\Projects\FinalProjectAutamation\target\classes;C:\Users\cvalero\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\cvalero\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\cvalero\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\cvalero\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\cvalero\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\cvalero\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-testng\2.13.3\allure-testng-2.13.3.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-java-commons\2.13.3\allure-java-commons-2.13.3.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-model\2.13.3\allure-model-2.13.3.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\cvalero\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\cvalero\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\cvalero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\cvalero\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\cvalero\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\cvalero\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\cvalero\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\cvalero\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\cvalero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\cvalero\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\cvalero\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\cvalero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\cvalero\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\cvalero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cvalero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\cvalero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\cvalero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\cvalero\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cvalero\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\cvalero\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\cvalero\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\cvalero\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\cvalero\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\cvalero\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\cvalero\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\cvalero\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\cvalero\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\cvalero\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\cvalero\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\cvalero\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\cvalero\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\target\test-classes;C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\target\classes;C:\Users\cvalero\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\cvalero\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\cvalero\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\cvalero\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\cvalero\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\cvalero\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-testng\2.13.6\allure-testng-2.13.6.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-java-commons\2.13.6\allure-java-commons-2.13.6.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-model\2.13.6\allure-model-2.13.6.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;C:\Users\cvalero\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\cvalero\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\cvalero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\cvalero\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\cvalero\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\cvalero\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\cvalero\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\cvalero\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\cvalero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\cvalero\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\cvalero\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\cvalero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\cvalero\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\cvalero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cvalero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\cvalero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\cvalero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\cvalero\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cvalero\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\cvalero\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\cvalero\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\cvalero\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\cvalero\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\cvalero\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\cvalero\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\cvalero\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\cvalero\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\cvalero\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\cvalero\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\cvalero\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\cvalero\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -14,27 +14,27 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="GB"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15\bin"/>
-    <property name="sun.java.command" value="C:\Users\cvalero\AppData\Local\Temp\surefire15252760870743504841\surefirebooter7120547887689027406.jar C:\Users\cvalero\AppData\Local\Temp\surefire15252760870743504841 2020-10-08T19-13-13_453-jvmRun1 surefire8901782440736815940tmp surefire_08133574326912976701tmp"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\cvalero\AppData\Local\Temp\surefire17019212460347445566\surefirebooter12109890342553544191.jar C:\Users\cvalero\AppData\Local\Temp\surefire17019212460347445566 2022-05-08T12-37-07_168-jvmRun1 surefire11492520510558503168tmp surefire_09790251593159067796tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\cvalero\Projects\FinalProjectAutamation\target\test-classes;C:\Users\cvalero\Projects\FinalProjectAutamation\target\classes;C:\Users\cvalero\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\cvalero\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\cvalero\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\cvalero\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\cvalero\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\cvalero\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-testng\2.13.3\allure-testng-2.13.3.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-java-commons\2.13.3\allure-java-commons-2.13.3.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-model\2.13.3\allure-model-2.13.3.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\cvalero\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\cvalero\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\cvalero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\cvalero\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\cvalero\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\cvalero\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\cvalero\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\cvalero\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\cvalero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\cvalero\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\cvalero\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\cvalero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\cvalero\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\cvalero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cvalero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\cvalero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\cvalero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\cvalero\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cvalero\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\cvalero\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\cvalero\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\cvalero\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\cvalero\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\cvalero\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\cvalero\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\cvalero\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\cvalero\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\cvalero\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\cvalero\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\cvalero\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\cvalero\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\target\test-classes;C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation\target\classes;C:\Users\cvalero\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\cvalero\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\cvalero\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\cvalero\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\cvalero\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\cvalero\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-testng\2.13.6\allure-testng-2.13.6.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-java-commons\2.13.6\allure-java-commons-2.13.6.jar;C:\Users\cvalero\.m2\repository\io\qameta\allure\allure-model\2.13.6\allure-model-2.13.6.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;C:\Users\cvalero\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;C:\Users\cvalero\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\cvalero\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\cvalero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\cvalero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\cvalero\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\cvalero\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\cvalero\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\cvalero\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\cvalero\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\cvalero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\cvalero\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\cvalero\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\cvalero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\cvalero\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\cvalero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cvalero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\cvalero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\cvalero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\cvalero\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\cvalero\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\cvalero\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cvalero\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\cvalero\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\cvalero\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\cvalero\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\cvalero\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\cvalero\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\cvalero\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\cvalero\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\cvalero\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\cvalero\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\cvalero\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\cvalero\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\cvalero\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\cvalero\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\cvalero\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\cvalero"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2020-09-15"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-15"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\cvalero\Projects\FinalProjectAutamation"/>
+    <property name="basedir" value="C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cvalero\AppData\Local\Temp\surefire15252760870743504841\surefirebooter7120547887689027406.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cvalero\AppData\Local\Temp\surefire17019212460347445566\surefirebooter12109890342553544191.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="15+36-1562"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
     <property name="user.name" value="cvalero"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
@@ -44,21 +44,21 @@
     <property name="localRepository" value="C:\Users\cvalero\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\cvalero\AppData\Local\Temp\"/>
-    <property name="java.version" value="15"/>
-    <property name="user.dir" value="C:\Users\cvalero\Projects\FinalProjectAutamation"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\cvalero\OneDrive - ENDAVA\Documents\Projects\FinalProjectAutomation"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\;C:\webdrivers;C:\Users\cvalero\Desktop\Apps\sdk-tools-windows-3859397\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\nodejs\;C:\Program Files\Apache\apache-maven-3.6.3\bin;C:\allure-2.13.3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\cvalero\AppData\Local\Programs\Python\Python38-32;C:\Users\cvalero\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\cvalero\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk-15\bin;C:\Users\cvalero\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\cvalero\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;C:\Users\cvalero\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;;C:\Users\cvalero\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.1\bin;;C:\Users\cvalero\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Apache\apache-maven-3.6.3\bin;C:\Program Files\allure-2.13.6\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\cvalero\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\cvalero\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\cvalero\AppData\Local\Microsoft\WindowsApps;C:\Users\cvalero\.dotnet\tools;C:\Users\cvalero\AppData\Roaming\npm;C:\Users\cvalero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="15+36-1562"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="validateAddNewComment" classname="apiTests.RestFullCard" time="3.665">
-    <system-out><![CDATA[Request URI:	https://api.trello.com/1/board/5f77456defd45f195cb8b8cd/lists
-Request URI:	https://api.trello.com/1/cards/5f774bf2729f58605d3c2352?token=e07b3c393e2b0606d8e696d89c9f7e45fa6220a3585eb99393b3e809d629117c&key=82a1e0c4b01383fc2b220cc981639e71
+  <testcase name="validateCard" classname="apiTests.RestFullCard" time="3.06">
+    <system-out><![CDATA[Request URI:	https://api.trello.com/1/cards/5f774bf2729f58605d3c2352?token=e07b3c393e2b0606d8e696d89c9f7e45fa6220a3585eb99393b3e809d629117c&key=82a1e0c4b01383fc2b220cc981639e71
+Request URI:	https://api.trello.com/1/board/5f77456defd45f195cb8b8cd/lists
 Body:
 {
     "name": "Card to be Deleted",
@@ -79,45 +79,34 @@ Body:
 {
     "text": "Type a Comment from IntelliJ using Rest Assured"
 }
-[TRACE] 2020-10-08 19:13:22.185 [TestNG-test=Test-1] RestFullCard - API Test 1 - Passed - ValidateLists 
-[INFO ] 2020-10-08 19:13:22.194 [TestNG-test=Test-1] RestFullCard - The Number of lists in the Kanban project is: 7
-[INFO ] 2020-10-08 19:13:22.194 [TestNG-test=Test-1] RestFullCard - The lists in Kanban are: 
-[INFO ] 2020-10-08 19:13:22.195 [TestNG-test=Test-1] RestFullCard - Backlog
-[INFO ] 2020-10-08 19:13:22.195 [TestNG-test=Test-1] RestFullCard - Design
-[INFO ] 2020-10-08 19:13:22.195 [TestNG-test=Test-1] RestFullCard - To Do
-[INFO ] 2020-10-08 19:13:22.196 [TestNG-test=Test-1] RestFullCard - Doing
-[INFO ] 2020-10-08 19:13:22.196 [TestNG-test=Test-1] RestFullCard - Code Review
-[INFO ] 2020-10-08 19:13:22.196 [TestNG-test=Test-1] RestFullCard - Testing
-[INFO ] 2020-10-08 19:13:22.196 [TestNG-test=Test-1] RestFullCard - Done
-[INFO ] 2020-10-08 19:13:22.201 [TestNG-test=Test-2] RestFullCard - API Test 2 - Passed - ValidateCard 
-[INFO ] 2020-10-08 19:13:22.202 [TestNG-test=Test-2] RestFullCard - The Name of the Card validated is: prueba
-[INFO ] 2020-10-08 19:13:22.203 [TestNG-test=Test-5] RestFullCard - API Test 5 - Passed - ValidateAddNewComment 
-[INFO ] 2020-10-08 19:13:22.204 [TestNG-test=Test-5] RestFullCard - New Comment added to the Card 5f7fab5a180176453cda7d35
+[TRACE] 2022-05-08 12:37:15.129 [TestNG-test=Test-1] RestFullCard - API Test 1 - Passed - ValidateLists 
+[INFO ] 2022-05-08 12:37:15.137 [TestNG-test=Test-1] RestFullCard - The Number of lists in the Kanban project is: 7
+[INFO ] 2022-05-08 12:37:15.138 [TestNG-test=Test-1] RestFullCard - The lists in Kanban are: 
+[INFO ] 2022-05-08 12:37:15.138 [TestNG-test=Test-1] RestFullCard - Backlog
+[INFO ] 2022-05-08 12:37:15.138 [TestNG-test=Test-1] RestFullCard - Design
+[INFO ] 2022-05-08 12:37:15.139 [TestNG-test=Test-1] RestFullCard - To Do
+[INFO ] 2022-05-08 12:37:15.141 [TestNG-test=Test-1] RestFullCard - Doing
+[INFO ] 2022-05-08 12:37:15.142 [TestNG-test=Test-1] RestFullCard - Code Review
+[INFO ] 2022-05-08 12:37:15.142 [TestNG-test=Test-1] RestFullCard - Testing
+[INFO ] 2022-05-08 12:37:15.142 [TestNG-test=Test-1] RestFullCard - Done
+[INFO ] 2022-05-08 12:37:15.160 [TestNG-test=Test-5] RestFullCard - API Test 5 - Passed - ValidateAddNewComment 
+[INFO ] 2022-05-08 12:37:15.160 [TestNG-test=Test-2] RestFullCard - API Test 2 - Passed - ValidateCard 
+[INFO ] 2022-05-08 12:37:15.161 [TestNG-test=Test-5] RestFullCard - New Comment added to the Card 6277ffb7ebefea73f83ad84f
+[INFO ] 2022-05-08 12:37:15.161 [TestNG-test=Test-2] RestFullCard - The Name of the Card validated is: prueba
+Request URI:	https://api.trello.com/1/cards/6277ffb7e649ca72b6f94965?token=e07b3c393e2b0606d8e696d89c9f7e45fa6220a3585eb99393b3e809d629117c&key=82a1e0c4b01383fc2b220cc981639e71
 ]]></system-out>
     <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
-log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
-log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
 log4j:WARN Please initialize the log4j system properly.
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 ]]></system-err>
   </testcase>
-  <testcase name="createNewCard" classname="apiTests.RestFullCard" time="3.709">
-    <system-out><![CDATA[[INFO ] 2020-10-08 19:13:22.190 [TestNG-test=Test-3] RestFullCard - API Test 3 - Passed - CreateNewCard 
-[INFO ] 2020-10-08 19:13:22.208 [TestNG-test=Test-3] RestFullCard - The Id of the New Card is: 5f7fab5ad90c937f12510db3
-]]></system-out>
-  </testcase>
-  <testcase name="validateCard" classname="apiTests.RestFullCard" time="3.709"/>
-  <testcase name="validateLists" classname="apiTests.RestFullCard" time="3.709"/>
-  <testcase name="validateMoveCardToList" classname="apiTests.RestFullCard" time="0.071">
-    <system-out><![CDATA[Request URI:	https://api.trello.com/1/cards/5f7fab5a0eb4987251ae9b4b?token=e07b3c393e2b0606d8e696d89c9f7e45fa6220a3585eb99393b3e809d629117c&key=82a1e0c4b01383fc2b220cc981639e71
-Body:
+  <testcase name="validateLists" classname="apiTests.RestFullCard" time="3.062"/>
+  <testcase name="validateAddNewComment" classname="apiTests.RestFullCard" time="3.062"/>
+  <testcase name="createNewCard" classname="apiTests.RestFullCard" time="0.085">
+    <system-out><![CDATA[Body:
 {
     "name": null,
     "desc": "The Description has been modified from IntelliJ",
@@ -134,19 +123,21 @@ Body:
     "email": "cesar.valero@gyp.com",
     "closed": false
 }
-Request URI:	https://api.trello.com/1/cards/5f7fab5a0eb4987251ae9b4b?token=e07b3c393e2b0606d8e696d89c9f7e45fa6220a3585eb99393b3e809d629117c&key=82a1e0c4b01383fc2b220cc981639e71
-[INFO ] 2020-10-08 19:13:22.741 [TestNG-test=Test-5] RestFullCard - API Test 6 - Passed - validateMoveCardToList 
-[INFO ] 2020-10-08 19:13:22.741 [TestNG-test=Test-5] RestFullCard - The Card was move to the List To Do 
+[INFO ] 2022-05-08 12:37:15.267 [TestNG-test=Test-3] RestFullCard - API Test 3 - Passed - CreateNewCard 
+[INFO ] 2022-05-08 12:37:15.268 [TestNG-test=Test-3] RestFullCard - The Id of the New Card is: 6277ffb73085c3768f98a38f
 ]]></system-out>
   </testcase>
-  <testcase name="validateUpdateCard" classname="apiTests.RestFullCard" time="0.16">
-    <system-out><![CDATA[[INFO ] 2020-10-08 19:13:22.754 [TestNG-test=Test-3] RestFullCard - API Test 7 - Passed - validateUpdateCard 
-[INFO ] 2020-10-08 19:13:22.754 [TestNG-test=Test-3] RestFullCard - Description updated:  The Description has been modified from IntelliJ
-[INFO ] 2020-10-08 19:13:22.755 [TestNG-test=Test-3] RestFullCard - New Due Date updated:  2020-11-08T00:00:00.000Z
+  <testcase name="validateUpdateCard" classname="apiTests.RestFullCard" time="0.305">
+    <system-out><![CDATA[[INFO ] 2022-05-08 12:37:15.705 [TestNG-test=Test-5] RestFullCard - API Test 7 - Passed - validateUpdateCard 
+[INFO ] 2022-05-08 12:37:15.706 [TestNG-test=Test-5] RestFullCard - Description updated:  The Description has been modified from IntelliJ
+[INFO ] 2022-05-08 12:37:15.707 [TestNG-test=Test-5] RestFullCard - New Due Date updated:  2020-11-08T00:00:00.000Z
 ]]></system-out>
   </testcase>
-  <testcase name="validateDeleteCard" classname="apiTests.RestFullCard" time="0.176">
-    <system-out><![CDATA[Body:
+  <testcase name="validateMoveCardToList" classname="apiTests.RestFullCard" time="0.404">
+    <system-out><![CDATA[Request URI:	https://api.trello.com/1/cards/6277ffb7e649ca72b6f94965?token=e07b3c393e2b0606d8e696d89c9f7e45fa6220a3585eb99393b3e809d629117c&key=82a1e0c4b01383fc2b220cc981639e71
+[INFO ] 2022-05-08 12:37:15.786 [TestNG-test=Test-1] RestFullCard - API Test 6 - Passed - validateMoveCardToList 
+[INFO ] 2022-05-08 12:37:15.787 [TestNG-test=Test-1] RestFullCard - The Card was move to the List To Do 
+Body:
 {
     "name": null,
     "desc": null,
@@ -154,167 +145,171 @@ Request URI:	https://api.trello.com/1/cards/5f7fab5a0eb4987251ae9b4b?token=e07b3
     "email": null,
     "closed": true
 }
-[INFO ] 2020-10-08 19:13:22.980 [TestNG-test=Test-4] RestFullCard - API Test 4 - Passed - ValidateDeleteCard 
-[INFO ] 2020-10-08 19:13:22.981 [TestNG-test=Test-4] RestFullCard - The Card was Deleted 
 ]]></system-out>
   </testcase>
-  <testcase name="ValidateToCloseCard" classname="apiTests.RestFullCard" time="0.497">
-    <system-out><![CDATA[[INFO ] 2020-10-08 19:13:23.314 [TestNG-test=Test-1] RestFullCard - API Test 8 - Passed - ValidateToCloseCard 
-[INFO ] 2020-10-08 19:13:23.315 [TestNG-test=Test-1] RestFullCard - Is the Card closed?:  true
+  <testcase name="validateDeleteCard" classname="apiTests.RestFullCard" time="0.712">
+    <system-out><![CDATA[[INFO ] 2022-05-08 12:37:16.114 [TestNG-test=Test-4] RestFullCard - API Test 4 - Passed - ValidateDeleteCard 
+[INFO ] 2022-05-08 12:37:16.115 [TestNG-test=Test-4] RestFullCard - The Card was Deleted 
 ]]></system-out>
   </testcase>
-  <testcase name="validateLogin" classname="uiTests.HomePageTests" time="19.928">
-    <system-out><![CDATA[[INFO ] 2020-10-08 19:14:01.774 [TestNG-test=HomePageTest-1] BaseTest - UI Test 1 - Passed - validateLogin 
+  <testcase name="ValidateToCloseCard" classname="apiTests.RestFullCard" time="0.859">
+    <system-out><![CDATA[[INFO ] 2022-05-08 12:37:16.264 [TestNG-test=Test-2] RestFullCard - API Test 8 - Passed - ValidateToCloseCard 
+[INFO ] 2022-05-08 12:37:16.265 [TestNG-test=Test-2] RestFullCard - Is the Card closed?:  true
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 24119
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 7:13:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="validateHomePage" classname="uiTests.HomePageTests" time="26.336">
-    <system-out><![CDATA[Test Passed 
-[INFO ] 2020-10-08 19:14:43.864 [TestNG-test=HomePageTest-1] BaseTest - UI Test 2 - Passed - validateHomePage - expected components were displayed 
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 32400
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 7:14:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="validatePersonalProject" classname="uiTests.HomePageTests" time="27.376">
-    <system-out><![CDATA[Test Passed 
-[INFO ] 2020-10-08 19:15:28.995 [TestNG-test=HomePageTest-1] BaseTest - UI Test 3 - Passed - validatePersonalProject New Final Project Exists
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 37467
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 7:14:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="validateScreenShotError" classname="uiTests.HomePageTests" time="0.079">
-    <failure message="expected [Log Out] but found [Log In]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Log Out] but found [Log In]
-	at uiTests.HomePageTests.validateScreenShotError(HomePageTests.java:38)
-]]></failure>
-    <system-out><![CDATA[Test Passed 
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 34720
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 7:15:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="CreateNewCard" classname="uiTests.ProjectBoardTest" time="36.322">
-    <system-out><![CDATA[[INFO ] 2020-10-08 19:15:51.057 [TestNG-test=HomePageTest-1] BaseTest - TestCase failed due to: Error_validateScreenShotError
-[INFO ] 2020-10-08 19:16:48.152 [TestNG-test=ProjectBoardTest-1] BaseTest - UI Test 5 - Passed - CreateNewCard 
-[INFO ] 2020-10-08 19:16:48.153 [TestNG-test=ProjectBoardTest-1] BaseTest - Card Created with name: New develop task
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 21405
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 7:16:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="UpdateDescription" classname="uiTests.ProjectBoardTest" time="22.652">
-    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=86.0.4240.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911042&apos;, ip: &apos;192.168.0.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e5d87ce4d9fdd50464af13cded955616" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=86.0.4240.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+  <testcase name="loadData" classname="uiTests.HomePageTests" time="9.863">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EN911042', ip: '192.168.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e5d87ce4d9fdd50464af13cded955616
-	at uiTests.ProjectBoardTest.UpdateDescription(ProjectBoardTest.java:30)
+System info: host: 'EN911415', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005DC013+3194899]
+	Ordinal0 [0x004C6021+2056225]
+	Ordinal0 [0x0035F608+587272]
+	Ordinal0 [0x002E1BF3+72691]
+	Ordinal0 [0x002DE229+57897]
+	Ordinal0 [0x002DC64A+50762]
+	Ordinal0 [0x00301EE9+204521]
+	Ordinal0 [0x00301D0D+204045]
+	Ordinal0 [0x002FFC1B+195611]
+	Ordinal0 [0x002E3B7F+80767]
+	Ordinal0 [0x002E4B4E+84814]
+	Ordinal0 [0x002E4AD9+84697]
+	Ordinal0 [0x004DCE64+2149988]
+	GetHandleVerifier [0x0074BE95+1400773]
+	GetHandleVerifier [0x0074BB61+1399953]
+	GetHandleVerifier [0x007531FA+1430314]
+	GetHandleVerifier [0x0074C69F+1402831]
+	Ordinal0 [0x004D3D61+2112865]
+	Ordinal0 [0x004DE5CB+2155979]
+	Ordinal0 [0x004DE6F5+2156277]
+	Ordinal0 [0x004EF26E+2224750]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]
+
 ]]></failure>
-    <system-out><![CDATA[Test Passed 
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 45399
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 43897
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 08, 2020 7:16:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="AddCommentCard" classname="uiTests.ProjectBoardTest" time="27.498">
-    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=86.0.4240.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911042&apos;, ip: &apos;192.168.0.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f1eb04c33bdea1d6400577eaa0dc196a" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=86.0.4240.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+  <testcase name="loadData" classname="uiTests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loadData" classname="uiTests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loadData" classname="uiTests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateLogin" classname="uiTests.HomePageTests" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.HomePageTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateHomePage" classname="uiTests.HomePageTests" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="validatePersonalProject" classname="uiTests.HomePageTests" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="validateScreenShotError" classname="uiTests.HomePageTests" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="loadData" classname="uiTests.ProjectBoardTest" time="8.599">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EN911042', ip: '192.168.0.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\cvalero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f1eb04c33bdea1d6400577eaa0dc196a
-	at uiTests.ProjectBoardTest.AddCommentCard(ProjectBoardTest.java:42)
+System info: host: 'EN911415', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005DC013+3194899]
+	Ordinal0 [0x004C6021+2056225]
+	Ordinal0 [0x0035F608+587272]
+	Ordinal0 [0x002E1BF3+72691]
+	Ordinal0 [0x002DE229+57897]
+	Ordinal0 [0x002DC64A+50762]
+	Ordinal0 [0x00301EE9+204521]
+	Ordinal0 [0x00301D0D+204045]
+	Ordinal0 [0x002FFC1B+195611]
+	Ordinal0 [0x002E3B7F+80767]
+	Ordinal0 [0x002E4B4E+84814]
+	Ordinal0 [0x002E4AD9+84697]
+	Ordinal0 [0x004DCE64+2149988]
+	GetHandleVerifier [0x0074BE95+1400773]
+	GetHandleVerifier [0x0074BB61+1399953]
+	GetHandleVerifier [0x007531FA+1430314]
+	GetHandleVerifier [0x0074C69F+1402831]
+	Ordinal0 [0x004D3D61+2112865]
+	Ordinal0 [0x004DE5CB+2155979]
+	Ordinal0 [0x004DE6F5+2156277]
+	Ordinal0 [0x004EF26E+2224750]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]
+
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2020-10-08 19:17:32.623 [TestNG-test=ProjectBoardTest-1] BaseTest - TestCase failed due to: Error_UpdateDescription
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 24699
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 27597
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 08, 2020 7:17:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="MoveCardToList" classname="uiTests.ProjectBoardTest" time="32.969">
-    <system-out><![CDATA[[INFO ] 2020-10-08 19:18:17.952 [TestNG-test=ProjectBoardTest-1] BaseTest - TestCase failed due to: Error_AddCommentCard
-[INFO ] 2020-10-08 19:19:10.036 [TestNG-test=ProjectBoardTest-1] BaseTest - UI Test 8 - Passed - MoveCardToList:  Doing
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 39293
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 7:18:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-java.io.IOException: The filename, directory name, or volume label syntax is incorrect
-	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
-	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
-	at java.base/java.io.File.getCanonicalPath(File.java:621)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1064)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
-	at pageObjects.BasePage.takeScreenShot(BasePage.java:45)
-	at pageObjects.ProjectBoardPage.MoveCardTo(ProjectBoardPage.java:100)
-	at uiTests.ProjectBoardTest.MoveCardToList(ProjectBoardTest.java:53)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></system-err>
+  <testcase name="loadData" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="ValidateCardWasMoved" classname="uiTests.ProjectBoardTest" time="25.211">
-    <system-out><![CDATA[Test Passed 
-[INFO ] 2020-10-08 19:19:57.950 [TestNG-test=ProjectBoardTest-1] BaseTest - UI Test 9 - Passed - MoveCardToList:  Doing
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 1606
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 7:19:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="loadData" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loadData" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loadData" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="CreateNewCard" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterClass" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="UpdateDescription" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="AddCommentCard" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="MoveCardToList" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="ValidateCardWasMoved" classname="uiTests.ProjectBoardTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 86&#10;Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911415&apos;, ip: &apos;192.168.1.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x005DC013+3194899]&#10;	Ordinal0 [0x004C6021+2056225]&#10;	Ordinal0 [0x0035F608+587272]&#10;	Ordinal0 [0x002E1BF3+72691]&#10;	Ordinal0 [0x002DE229+57897]&#10;	Ordinal0 [0x002DC64A+50762]&#10;	Ordinal0 [0x00301EE9+204521]&#10;	Ordinal0 [0x00301D0D+204045]&#10;	Ordinal0 [0x002FFC1B+195611]&#10;	Ordinal0 [0x002E3B7F+80767]&#10;	Ordinal0 [0x002E4B4E+84814]&#10;	Ordinal0 [0x002E4AD9+84697]&#10;	Ordinal0 [0x004DCE64+2149988]&#10;	GetHandleVerifier [0x0074BE95+1400773]&#10;	GetHandleVerifier [0x0074BB61+1399953]&#10;	GetHandleVerifier [0x007531FA+1430314]&#10;	GetHandleVerifier [0x0074C69F+1402831]&#10;	Ordinal0 [0x004D3D61+2112865]&#10;	Ordinal0 [0x004DE5CB+2155979]&#10;	Ordinal0 [0x004DE6F5+2156277]&#10;	Ordinal0 [0x004EF26E+2224750]&#10;	BaseThreadInitThunk [0x76DFFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x76F47A4E+238]&#10;"/>
   </testcase>
 </testsuite>
